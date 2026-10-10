@@ -4,7 +4,7 @@
 with a hand of cards, launch missiles and nukes, fire the rail gun, and outlast your opponents. Play
 hot-seat, against the AI, online with friends, or through the campaign.
 
-**Play it:** https://d18x9yuuollrdm.cloudfront.net/
+**Play it:** https://deckspace.app/
 
 Deckspace is in **beta**: under active development, so rules, balance and features change, and saves
 may be reset.
