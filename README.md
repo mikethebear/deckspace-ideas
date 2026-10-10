@@ -11,8 +11,15 @@ may be reset.
 
 ## What this repo is for
 
-This is the game's public tracker. The game's code is private and is not here, so there is nothing to
-fork and pull requests are closed automatically.
+This is **the place to reach Deckspace's developer**: the game's public tracker for bugs, ideas and
+questions about the game. The game's code is private and is not here, so there is nothing to fork and
+pull requests are closed automatically.
+
+## How to send something
+
+1. Sign in to GitHub (a free account; [sign up](https://github.com/signup) if you don't have one).
+2. Choose **Report a bug** or **Suggest an idea** below, fill in the short form, and press **Create**.
+3. That's it. You'll get a notification when someone replies or the issue is closed.
 
 - **[Report a bug](../../issues/new?template=bug.yml)**: something broke, looked wrong, or didn't do
   what the game said it would.
@@ -31,7 +38,7 @@ screen).
 
 ## Please note
 
-- **This is not a support or contact channel.** Issues are public; don't post personal information.
+- **Everything here is public.** Don't post personal information. There is no private contact.
 - **Ideas are a gift.** By posting one, you agree it may be used, changed or not used in Deckspace,
   with no payment or credit owed.
 - Deckspace is provided as is, and you play it at your own risk; see the Terms in the game.
