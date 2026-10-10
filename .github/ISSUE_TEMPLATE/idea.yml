@@ -1,0 +1,36 @@
+name: Suggest an idea
+description: A new card, a rule change, a campaign sector, anything that would make the game better.
+title: "Idea: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Please search the open issues first, and add a 👍 to one you like
+        rather than repeating it. By posting, you agree your idea may be used, changed or not
+        used in Deckspace, with no payment or credit owed.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's the idea?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it make the game better?
+      description: What would it fix, add or make more fun?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the game?
+      multiple: true
+      options:
+        - Cards and weapons
+        - Ships, movement and the board
+        - The AI opponents
+        - The campaign
+        - Online play
+        - Phones and touch controls
+        - Look, sound and feel
+        - Something else

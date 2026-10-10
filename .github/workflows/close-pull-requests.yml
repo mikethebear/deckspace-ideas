@@ -1,0 +1,23 @@
+# This repo holds no code (the game's code is private), so a pull request has nothing to change.
+# Each one is closed with a pointer to the issue forms. pull_request_target runs with this repo's
+# token; nothing from the pull request is checked out or run.
+name: Close pull requests
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close with a note
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh pr close "$PR" --repo "$REPO" --comment "Thanks! This repo holds no code, so pull requests can't be merged. Please open an issue instead: Report a bug or Suggest an idea."

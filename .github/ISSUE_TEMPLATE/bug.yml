@@ -1,0 +1,56 @@
+name: Report a bug
+description: Something broke, looked wrong, or didn't do what the game said it would.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Deckspace better. Please search the open issues first.
+        This tracker is public: don't include personal information.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe what you saw. A screenshot helps a lot (paste or drag it in).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be made to happen again?
+      description: The steps, as best you remember them.
+      placeholder: |
+        1. Started a local game, 2 players
+        2. Played a Missile card and launched
+        3. ...
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Which kind of game?
+      options:
+        - Local (hot-seat)
+        - Local against the AI
+        - Online
+        - Campaign
+        - Start screen or lobby
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown at the bottom of the start screen, and at the top of Help.
+      placeholder: "1.2.0"
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: "Chrome on Windows laptop, Safari on iPhone 15, ..."
