@@ -31,7 +31,7 @@ of a new one.
 
 ## What happens next
 
-Every report and idea is read and labelled. Bugs are reproduced where possible; good ideas are
+Reports and ideas are labelled as they come in. Bugs are reproduced where possible; good ideas are
 considered for the game's backlog. Not every idea will be taken up, and there is no timeline. When a
 fix or feature ships, its issue is closed with the version it shipped in (shown on the game's start
 screen).
